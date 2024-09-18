@@ -12,4 +12,17 @@ void main() {
 
   double result = calculateInterest(principal, rate, time);
   print("The simple interest is $result.");
+
+  // Declaring Variables
+  String name = "David Kiarie";
+  String address = "Juja, Kenya";
+  num age = 22;
+  num height = 6.1;
+  bool isStudent = true;
+
+  print("Name is $name");
+  print("Address is $address");
+  print("Age is $age");
+  print("Height is $height");
+  print("Education Status is $isStudent");
 }
